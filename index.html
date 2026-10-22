@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pizzería La Esquina</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Pizzería de barrio en General Paz, Córdoba. Horno a piedra, menú online y pedidos por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Work+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="pizza" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="96" fill="#D9A55B"/>
+      <circle cx="100" cy="100" r="82" fill="#C9362A"/>
+      <path d="M100 26c22 4 30 18 50 20s30 22 24 44-2 36-20 50-26 30-54 30-40-10-56-24-22-36-18-56 10-38 30-48 26-20 44-16z" fill="#F6E7B8"/>
+      <g fill="#2F6B3F"><ellipse cx="72" cy="70" rx="9" ry="5" transform="rotate(-30 72 70)"/><ellipse cx="132" cy="120" rx="9" ry="5" transform="rotate(40 132 120)"/><ellipse cx="90" cy="140" rx="9" ry="5" transform="rotate(10 90 140)"/><ellipse cx="138" cy="66" rx="8" ry="4.5" transform="rotate(-60 138 66)"/></g>
+      <g fill="#1C1F1D"><circle cx="110" cy="80" r="5"/><circle cx="66" cy="112" r="5"/><circle cx="120" cy="150" r="5"/><circle cx="150" cy="96" r="4.5"/><circle cx="96" cy="108" r="4.5"/></g>
+      <g stroke="#B88A45" stroke-width="2" opacity=".55"><line x1="100" y1="4" x2="100" y2="196"/><line x1="4" y1="100" x2="196" y2="100"/><line x1="32" y1="32" x2="168" y2="168"/><line x1="168" y1="32" x2="32" y2="168"/></g>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Pizzería La Esquina, inicio">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#E5AE34"/><path d="M20 20 L20 3 A17 17 0 0 1 36 15 Z" fill="#C9362A"/><circle cx="25" cy="10" r="2" fill="#FBFAF6"/></svg>
+      <span class="brand-name">La Esquina<small>Pizzería · Gral. Paz</small></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="menu.html">Menú</a>
+      <a class="btn-wa" href="menu.html#pedido">Pedí ahora</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Barrio General Paz · Córdoba</p>
+        <h1>La pizza de <em>la esquina</em>, a la piedra y con masa de 48&nbsp;horas.</h1>
+        <p class="lead">Muzza bien cargada, fugazzeta de verdad y empanadas al horno. Mirá el menú, armá tu pedido y mandalo por WhatsApp, sin apps de por medio.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="menu.html">Ver el menú</a>
+          <a class="btn btn-ghost" href="#visitanos">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#pizza"/></svg></div>
+    </div>
+  </section>
+
+  <section class="facts" aria-label="Datos del local">
+    <div class="wrap">
+      <div class="fact">
+        <h3>Horarios</h3>
+        <p>Martes a domingo, 19:30 a 00:30</p>
+        <span class="open-now" id="open-now">Lunes cerrado</span>
+      </div>
+      <div class="fact">
+        <h3>Dirección</h3>
+        <p>24 de Septiembre y Lima, General Paz</p>
+      </div>
+      <div class="fact">
+        <h3>Delivery</h3>
+        <p>Gral. Paz, Juniors, Pueyrredón y San Vicente</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Las que más salen</h2>
+        <a href="menu.html">Ver menú completo →</a>
+      </div>
+      <div class="featured">
+        <article class="dish">
+          <div class="dish-art"><svg viewBox="0 0 200 200" aria-hidden="true"><use href="#pizza"/></svg></div>
+          <div class="dish-body">
+            <span class="tag">La de la casa</span>
+            <h3>Muzzarella</h3>
+            <p>Salsa de tomate perita, muzzarella, orégano y aceitunas verdes.</p>
+            <span class="price">Entera $13.500</span>
+          </div>
+        </article>
+        <article class="dish">
+          <div class="dish-art"><svg viewBox="0 0 200 200" aria-hidden="true"><use href="#pizza"/></svg></div>
+          <div class="dish-body">
+            <h3>Fugazzeta rellena</h3>
+            <p>Doble masa rellena de muzzarella, con cebolla dulce gratinada arriba.</p>
+            <span class="price">Entera $17.900</span>
+          </div>
+        </article>
+        <article class="dish">
+          <div class="dish-art"><svg viewBox="0 0 200 200" aria-hidden="true"><use href="#pizza"/></svg></div>
+          <div class="dish-body">
+            <span class="tag">Sin TACC</span>
+            <h3>Napolitana sin TACC</h3>
+            <p>Prepizza apta celíacos, horneada aparte, con tomate en rodajas y ajo.</p>
+            <span class="price">Entera $16.200</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head"><h2>Cómo pedir</h2></div>
+      <ol class="steps">
+        <li><h3>Elegí del menú</h3><p>Sumá pizzas, empanadas y bebidas. El total se calcula solo.</p></li>
+        <li><h3>Mandá el pedido</h3><p>Se abre WhatsApp con tu pedido ya escrito. Agregás tu dirección y listo.</p></li>
+        <li><h3>Retirá o esperá</h3><p>Te confirmamos el tiempo: unos 40 minutos en delivery, 20 si pasás a buscarla.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="visit" id="visitanos">
+    <div class="wrap">
+      <div>
+        <h2>Visitanos</h2>
+        <dl>
+          <dt>Dirección</dt><dd>24 de Septiembre y Lima, B° General Paz</dd>
+          <dt>Horario</dt><dd>Mar a Dom · 19:30 – 00:30</dd>
+          <dt>WhatsApp</dt><dd>351 555-0123</dd>
+          <dt>Pagos</dt><dd>Efectivo, transferencia y Mercado Pago</dd>
+        </dl>
+      </div>
+      <div class="map-card">
+        <svg viewBox="0 0 400 300" aria-label="Mapa ilustrativo de la esquina" role="img">
+          <rect width="400" height="300" style="fill:var(--chip)"/>
+          <g style="stroke:var(--line)" stroke-width="22"><line x1="0" y1="120" x2="400" y2="120"/><line x1="0" y1="250" x2="400" y2="250"/><line x1="90" y1="0" x2="90" y2="300"/><line x1="250" y1="0" x2="250" y2="300"/></g>
+          <g style="fill:var(--muted)" font-family="Work Sans, sans-serif" font-size="12" font-weight="600"><text x="300" y="114">24 de Septiembre</text><text x="258" y="40" transform="rotate(90 258 40)">Lima</text><text x="300" y="244">25 de Mayo</text><text x="98" y="40" transform="rotate(90 98 40)">Rosario de Sta. Fe</text></g>
+          <circle cx="250" cy="120" r="16" style="fill:var(--tomato)"/><circle cx="250" cy="120" r="6" fill="#fff"/>
+        </svg>
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/24+de+Septiembre+y+Lima,+General+Paz,+C%C3%B3rdoba" target="_blank" rel="noopener">Abrir en Google Maps</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Pizzería La Esquina · General Paz, Córdoba</p>
+    <p>Proyecto de portafolio de Felipe Aliaga · negocio ficticio</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

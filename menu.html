@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Pizzería La Esquina</title>
+<meta name="description" content="Menú de Pizzería La Esquina, General Paz, Córdoba: pizzas, empanadas, bebidas y postres. Armá tu pedido y mandalo por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Work+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="menu">
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Pizzería La Esquina, inicio">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#E5AE34"/><path d="M20 20 L20 3 A17 17 0 0 1 36 15 Z" fill="#C9362A"/><circle cx="25" cy="10" r="2" fill="#FBFAF6"/></svg>
+      <span class="brand-name">La Esquina<small>Pizzería · Gral. Paz</small></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="menu.html" aria-current="page">Menú</a>
+      <a class="btn-wa" href="#pedido">Tu pedido</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="menu-hero">
+    <div class="wrap">
+      <p class="eyebrow">Precios vigentes · octubre 2026</p>
+      <h1>Nuestro menú</h1>
+      <p>Tocá el precio para sumarlo al pedido. Las pizzas vienen en media (4 porciones) o entera (8 porciones).</p>
+    </div>
+  </section>
+
+  <nav class="cats" aria-label="Categorías del menú">
+    <div class="wrap" id="cats"></div>
+  </nav>
+
+  <div class="wrap menu-layout">
+    <div id="menu"></div>
+
+    <aside class="order" id="pedido" aria-label="Tu pedido">
+      <h2>Tu pedido</h2>
+      <p class="empty" id="order-empty">Todavía no sumaste nada. Tocá un precio del menú para empezar.</p>
+      <ul id="order-list"></ul>
+      <div class="total"><span>Total</span><span id="order-total">$0</span></div>
+      <a class="btn btn-primary" id="order-send" href="#" target="_blank" rel="noopener" aria-disabled="true">Enviar por WhatsApp</a>
+      <small>Se abre WhatsApp con el pedido escrito. Confirmamos demora y forma de pago por ahí.</small>
+    </aside>
+  </div>
+</main>
+
+<div class="mobile-bar" id="mobile-bar" hidden>
+  <span><strong id="mobile-count">0</strong> ítems · <strong id="mobile-total">$0</strong></span>
+  <a class="btn btn-primary" id="mobile-send" href="#" target="_blank" rel="noopener">Enviar pedido</a>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Pizzería La Esquina · General Paz, Córdoba</p>
+    <p>Proyecto de portafolio de Felipe Aliaga · negocio ficticio</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
